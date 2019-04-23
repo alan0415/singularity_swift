@@ -1,0 +1,5 @@
+Bootstrap:docker  
+From: alan0415/swift:v1
+
+%post  
+echo "This section happens once after bootstrap to build the image."  
