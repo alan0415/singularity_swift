@@ -4,7 +4,5 @@ From: alan0415/swift:v2
 %post  
 echo "This section happens once after bootstrap to build the image." 
 
-cd /home/users/industry/ai-hpc/apacsc22/alan/swiftv2/swiftsim/examples/EAGLE_low_z/EAGLE_25 && \
-   ./getIC.sh
-cd /home/users/industry/ai-hpc/apacsc22/alan/swiftv2/swiftsim/examples/EAGLE_low_z/EAGLE_50 && \
-   ./getIC.sh 
+/home/users/industry/ai-hpc/apacsc22/alan/swiftv2/swiftsim/examples/EAGLE_low_z/EAGLE_25/getIC.sh
+/home/users/industry/ai-hpc/apacsc22/alan/swiftv2/swiftsim/examples/EAGLE_low_z/EAGLE_50/getIC.sh 
